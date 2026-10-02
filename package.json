@@ -1,5 +1,5 @@
 {
-  "name": "notely-sample",
+  "name": "notely-broken-on-purpose",
   "version": "0.1.0",
   "private": true,
   "description": "DELIBERATELY VULNERABLE sample app for testing the Ship Check Kit. Never deploy.",
