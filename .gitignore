@@ -4,3 +4,6 @@ node_modules
 .env.local
 local-stack/keys.env
 local-stack/postgrest.conf
+.env
+.env.*
+!.env.example
