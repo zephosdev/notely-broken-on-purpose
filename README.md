@@ -70,7 +70,7 @@ A short version you can do in an afternoon. Only test apps and projects you own.
 6. **Unsigned webhook.** POST a made-up `checkout.session.completed` event to your webhook with no `Stripe-Signature`. It should get a 400, not a 200.
 7. **Headers, source maps, dependencies.** `curl -sI https://your.app`, look for `.js.map` files under `/_next/static`, and run `npx osv-scanner` or `npm audit` on your lockfile.
 
-The **[Ship Check Kit](https://zephos.dev)** ($29) runs all of this and more for you: 42 checks with stable IDs, terminal recipes, and a Claude Code skill / Cursor rule that reviews your code, probes your live app and Supabase project, and writes a `SHIP-CHECK.md` report with a verdict and evidence. It's what produced the table above, and it includes the fixed version of Notely so you can see each fix.
+The **[Ship Check Kit](https://zephos.dev)** ($29) runs all of this and more for you: 44 checks with stable IDs, terminal recipes, and a Claude Code skill / Cursor rule that reviews your code, probes your live app and Supabase project, and writes a `SHIP-CHECK.md` report with a verdict and evidence. It's what produced the table above, and it includes the fixed version of Notely so you can see each fix.
 
 ## License
 
